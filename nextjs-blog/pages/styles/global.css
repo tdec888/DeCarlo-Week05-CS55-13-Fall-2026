@@ -1,0 +1,149 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color:black;
+}
+ 
+* {
+  box-sizing: border-box;
+}
+ 
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+ 
+a:hover {
+  text-decoration: underline;
+}
+ 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@keyframes colorChangeWhite {
+  from {background-color: rgb(145, 242, 255);}
+  to {background-color: white;}
+}
+@keyframes colorChangeBlue {
+  from {background-color: white}
+  to {background-color: rgb(145, 242, 255);}
+}
+
+@keyframes shadowDrop {
+  from {box-shadow: 0px 0px 30px rgb(252, 251, 251);}
+  to {box-shadow: 04px 6px 4px rgba(7, 7, 7, 0.7);}
+}
+
+@keyframes txtDrop {
+  from {text-shadow: 0px 0px 30px rgb(255, 255, 255);}
+  to {text-shadow: 04px 6px 8px rgba(7, 7, 7, 0.7);}
+}
+
+
+
+
+@keyframes colorChangeDrkBlue {
+  from {background-color: rgb(145, 242, 255);}
+  to {background-color:rgb(1, 62, 70)}
+}
+
+@keyframes colorChangeLtBlue{
+  from {background-color: rgb(1, 62, 70)}
+  to {background-color:rgb(145, 242, 255)}
+}
+
+
+@keyframes colorTxtYellow {
+  from {color: rgb(145, 242, 255);}
+  to {color: rgb(164, 239, 245)}
+}
+
+
+
+
+.dropShadow {
+  animation-name: shadowDrop;
+  animation-duration: 10s;
+}
+
+.txtDropShadow {
+  animation-name: txtDrop;
+  animation-duration: 8s;
+}
+
+.maintainDropShadow {
+  box-shadow: 04px 6px 4px rgba(7, 7, 7, 0.7);
+}
+
+.maintainTxtDrop {
+  text-shadow: 04px 6px 4px rgba(7, 7, 7, 0.7);
+}
+
+.foreWhite {
+  animation-name: colorChangeWhite;
+  animation-duration: 8s;
+}
+
+.foreBlue {
+  animation-name: colorChangeBlue;
+  animation-duration: 8s;
+}
+
+.backBlue {
+  animation-name: colorChangeDrkBlue;
+  animation-duration:9s;
+}
+
+.backLtBlue {
+  animation-name: colorChangeLtBlue;
+  animation-duration: 9s;
+}
+
+.txtYellow{
+  animation-name:colorTxtYellow;
+  animation-duration: 17s;
+}
+
+.maintainForeWhite {
+  background-color: white;
+}
+
+.maintainForeBlue {
+  background-color: rgb(145, 242, 255);
+}
+
+.maintainBackBlue {
+  background-color: rgb(1, 62, 70);
+}
+.maintainbackblue {
+  background-color: rgb(1, 62, 70);
+}
+
+.maintainBackLtBlue {
+  background-color: rgb(145, 242, 255);
+}
+
+.maintainYellowTxt {
+  color: rgb(164, 239, 245);
+}
+
+.maintainWhite {
+  background-color: white;
+}
