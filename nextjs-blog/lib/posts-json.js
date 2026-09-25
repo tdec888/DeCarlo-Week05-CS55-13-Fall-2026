@@ -15,7 +15,8 @@ export function getSortedPostsData() { // load the json data from file
         return {
             id: item.id.toString(),
             title: item.title,
-            date: item.date
+            date: item.date,
+            giftideas: item.giftIdea
         }
     })
 }

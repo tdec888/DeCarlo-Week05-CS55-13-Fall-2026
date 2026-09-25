@@ -1,8 +1,8 @@
-
-// creating the below function inside pages/api dir will provide an api path
-//req is an instance of http.IncomingMessage plus middleware
-// res is an instance of http.ServerResponse plus helper functions
+// Define a simple API route inside the pages/api directory so Next.js exposes a URL endpoint.
+// The request object contains the incoming HTTP request details and middleware information.
+// The response object is used to send the HTTP reply back to the browser or client.
 export default function handler(req, res) {
+    // Return a successful 200 response with a small JSON payload for the API route.
     res.status(200).json({ text: 'hello'});
 }
-//test
+// This final line is a simple placeholder note for quick testing while the API endpoint is being developed.

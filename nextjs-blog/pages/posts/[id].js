@@ -9,14 +9,16 @@ import utilStyles from '../utils.module.css';
 export default function Post({ postData }) {
   return (
     <Layout>
-      {postData.title}
+      Title: {postData.title}
       <br />
-      {postData.date}
+      Date: {postData.date}
       
       <br />
-      {postData.contentHtml}
+      Content: {postData.contentHtml}
       <br />
-      {postData.id}
+      Gift Idea: {postData.giftIdea}
+      <br />
+      Card ID: {postData.id}
     </Layout>
   );
 }

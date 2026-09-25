@@ -7,6 +7,8 @@
     
         "contentHtml": "<p> Today is a <h1>celebration!!</h1>",
 
+        "giftIdea": "Cake, electronics, cars",
+
         "id": 1
 
     },
@@ -19,6 +21,8 @@
         "date": "2026-10-31",
 
         "contentHtml": "<p>Mazes, Ghouls, Goblins and <strong>Spooky</strong> Times!</p>",
+
+        "giftIdea": "Pumpkins, costumes, candy",
 
         "id": 2
 
@@ -33,6 +37,8 @@
 
         "contentHtml": "<p>Confetti, floats and good times!</p>",
 
+        "giftIdea": "Fireworks, noise makers, champagne",
+
         "id": 3
 
     },
@@ -45,6 +51,8 @@
         "date": "2026-12-25",
 
         "contentHtml": "<p> Santa Claus, Reindeer, Family and Snow! </p>",
+
+        "giftIdea": "Candy Canes, wreaths, candles, love",
 
         "id": 4
 
