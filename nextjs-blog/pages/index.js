@@ -10,7 +10,7 @@ import Layout, { siteTitle } from './components/layout';
 import utilStyles from './utils.module.css';
 
 // Developer note: This helper reads markdown files on the server and returns the post data.
-import { getSortedPostsData } from '../lib/posts';
+import { getSortedPostsData } from '../lib/posts-json'; // this was changed to from /lib/posts.js to posts-json.js
 
 export async function getStaticProps() {
   // Developer note: This runs during build and passes data to the page before rendering.

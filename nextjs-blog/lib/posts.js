@@ -40,6 +40,7 @@ export function getAllPostIds() {
     return {
       params: {
         id: fileName.replace(/\.md$/, ''),
+        //        id: fileName.replace(/\.md$/, ''),  returns a collection of IDs
       },
     };
   });

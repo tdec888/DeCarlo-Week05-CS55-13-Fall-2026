@@ -1,0 +1,53 @@
+[
+    {
+    
+        "title": "Happy Birthday!",
+    
+        "date": "2026-01-19",
+    
+        "contentHtml": "<p> Today is a <h1>celebration!!</h1>",
+
+        "id": 1
+
+    },
+
+
+    {
+
+        "title": "Happy Halloween!",
+
+        "date": "2026-10-31",
+
+        "contentHtml": "<p>Mazes, Ghouls, Goblins and <strong>Spooky</strong> Times!</p>",
+
+        "id": 2
+
+    },
+
+
+    {
+
+        "title": "Happy New Year!!",
+
+        "date": "2026-01-01",
+
+        "contentHtml": "<p>Confetti, floats and good times!</p>",
+
+        "id": 3
+
+    },
+
+
+    {
+
+        "title": "Merry Christmas!!",
+
+        "date": "2026-12-25",
+
+        "contentHtml": "<p> Santa Claus, Reindeer, Family and Snow! </p>",
+
+        "id": 4
+
+    }
+]
+
