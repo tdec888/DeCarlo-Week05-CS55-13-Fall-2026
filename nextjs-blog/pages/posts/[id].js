@@ -11,9 +11,12 @@ export default function Post({ postData }) {
     <Layout>
       {postData.title}
       <br />
-      {postData.id}
-      <br />
       {postData.date}
+      
+      <br />
+      {postData.contentHtml}
+      <br />
+      {postData.id}
     </Layout>
   );
 }
