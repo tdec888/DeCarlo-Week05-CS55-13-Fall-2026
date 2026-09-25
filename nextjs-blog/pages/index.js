@@ -1,6 +1,6 @@
 // Developer note: This file defines the blog homepage and loads post metadata for the listing.
 import Link from 'next/link';
-import Date from './components/date';
+import Date from '../components/date';
 
 // Import the Next.js document head component used for page metadata.
 import Head from 'next/head';
